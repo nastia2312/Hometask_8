@@ -1,6 +1,6 @@
 [host1]
+host_1="192.168.3.2" ansible_user='vagrant' ansible_private_key_file="./.vagrant/machines/default/virtualbox/private_key"
 
-#host_2
 [host2]
-host_2="192.168.3.3" ansible_user=vagrant ansible_private_key_file="./.vagrant/machines/default/virtualbox/private_key"
+host_2="192.168.3.3" ansible_user='vagrant' ansible_private_key_file="./.vagrant/machines/default/virtualbox/private_key"
 
