@@ -1,0 +1,11 @@
+- name: host_1
+  hosts: first
+  become: yes
+  roles:
+   - role_a
+
+- name: host_2
+  hosts: second
+  become: yes
+  roles:
+   - role_b

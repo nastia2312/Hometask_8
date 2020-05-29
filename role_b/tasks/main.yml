@@ -1,0 +1,17 @@
+---
+# tasks file for role_b
+- name: install epel
+  apt:
+   name: epel-release
+   state: present
+  tags: [apache2]
+
+- name: install apache2
+  apt:
+   name: apache2
+   state: present
+  tags: [apache2]
+
+- git:
+   repo: https://github.com/nastia2312/Hometask_8
+   dest: /home/my_login/hello

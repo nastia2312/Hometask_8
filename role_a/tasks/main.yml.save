@@ -1,0 +1,11 @@
+---
+# tasks file for role_a
+- name: install epel
+  servic:
+   name: epel-release
+   state: present
+  tags: [nginx]
+
+- name: install nginx
+  apt:
+   name: 
